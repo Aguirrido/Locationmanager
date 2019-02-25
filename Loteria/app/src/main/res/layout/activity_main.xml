@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/pera"
+            android:id="@+id/ib11"
+            />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/diablito"
+            android:id="@+id/ib4"
+            />
+        <ImageButton
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/muerte"
+        android:id="@+id/ib5"
+        />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="5sp"
+            android:background="@drawable/melon"
+            android:id="@+id/ib6"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/cotorro"
+            android:id="@+id/ib1"
+
+            />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+
+            android:background="@drawable/calavera"
+            android:id="@+id/ib2"
+
+
+
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/estrella"
+            android:id="@+id/ib13"
+            />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/escalera"
+            android:id="@+id/ib14"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+
+            android:background="@drawable/campana"
+            android:id="@+id/ib3"
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/luna"
+            android:id="@+id/ib9"
+            />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/sol"
+            android:id="@+id/ib10"
+            />
+
+
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/valiente"
+            android:id="@+id/ib12"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/soldado"
+            android:id="@+id/ib15"
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/dama"
+            android:id="@+id/ib16"
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="5sp"
+            android:background="@drawable/camaron"
+            android:id="@+id/ib7"
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="135dp"
+            android:background="@drawable/rosa"
+            android:id="@+id/ib8"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
